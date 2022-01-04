@@ -29,3 +29,6 @@ mean = episodic_acc.mean()
 std = episodic_acc.std()
 
 print('Accuracy: {:.2f} +- {:.2f} %'.format(mean * 100, 1.96 * std / (600)**(1/2) * 100))
+
+
+# python eval.py output.csv ./hw4_data/hw4_data/mini/val_testcase_gt.csv
